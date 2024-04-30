@@ -88,7 +88,7 @@ return(
           }
         </tr>
       ))}
-     </table>;
+     </table>
   </div>
 )
 }
