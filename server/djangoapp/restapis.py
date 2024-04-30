@@ -51,3 +51,4 @@ def post_review(data_dict):
     except Exception as err:
         print(f"Unexpected {err=}, {type(err)=}")
         print("Network exception occurred")
+        

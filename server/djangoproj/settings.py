@@ -29,9 +29,10 @@ SECRET_KEY =\
 DEBUG = True
 
 ALLOWED_HOSTS = ['localhost','https://princeefue-8000.\
-theiadockernext-1-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai']
+    theiadockernext-1-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai']
+
 CSRF_TRUSTED_ORIGINS = ['https://princeefue-8000.theiadockernext-1-labs-\
-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai']
+    prod-theiak8s-4-tor01.proxy.cognitiveclass.ai']
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [],
